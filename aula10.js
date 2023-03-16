@@ -42,6 +42,6 @@ export default function(token){
 
 export function handleSummary(data) { //exportando relatorio 
     return {
-      "index.html": htmlReport(data),
+      "teste_k6.html": htmlReport(data),
     };
   }
