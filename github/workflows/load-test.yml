@@ -10,4 +10,4 @@ jobs:
     - name: step 2 - run k6 load test
       uses: grafana/k6-action@v0.2.0
       with:
-        filename: scripts/aula10.js
+        filename: scripts/test.js
