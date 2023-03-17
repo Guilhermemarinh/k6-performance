@@ -1,59 +1,41 @@
-Tipos de Testes:
-Smoke Testing:
-1 - Carga Mínima
-2 - Cenário Simples
-3 - Funcionalidade Core
-4 - Rápido Resultado
+# ⚒ Projeto Performance - K6
+Projeto para automatização de testes no site FreeHelper
 
-Load Testing:
-1 - Quantidade de Tráfego
-2 - Condições normais e de Pico
-3 - Garantir funcionamento
+# 📋 Descrição
 
-Stress Testing:
-1 - Como seu sistema se comporta em condições extremas ?
-2 - Qual é a capacidade máxima do seu sistema em termos de usuários ou taxa de transferência ?
-3 - O ponto de ruptura do seu sistema ?
-4 - O sistema se recupera sem intervenção manual após o término do teste de estresse ?
-- Validar arquitetura de uma aplicação
-
-outros pontos:
-1 - A rapidez com que os mecanismos de dimensionamento automático reagem ao aumento da carga.
-2 - Se Houver alguma falha durante os eventos de dimensionamento.
- 
-Spike Testing:
-1 - Como seu sistema funcionár sob um aumento repentino de Tráfego ?
-2 - O seu sistema irá se recuperar assim que o tráfego diminuir ?
-3 - 
-
-SOAK/Endurance Testing (teste de imersão):
-- Confiabilidade em longos períodso de tempo
-1 - O sistema não sofre com bugs ou vazamentos de memória.
-2 - Verifica se as reinicializações inesperadas do aplicativo não perdem solicitações.
-3 - Encontre bugs relacionados a condições de corrida que aparecem esporadicamente
-4 - Certificar que seu BD não esgote o espaço de armazenamento alocado e pare.
-5 - Certifique-se de que seus logs não esgotam o armazenamento em disco alocado.
-6 - Certifique-se de que os serviços externos dos quais você depende não parem de funcionar após a execução de uma certa quantidade de solicitações.
-
-Pontos importantes:
-1 - Quantidade de usuários (não precisa chegar a ruptura- utilizar cerca de 80% do máximo suportado de users)
-2 - Requisitos de infraestrutura
+- Para automação dos testes de performance foi utilizada a linguagem de programação [JS](https://www.ruby-lang.org/pt/), juntamente com o Framework [K6](https://rubygems.org/gems/capybara).
 
 
+## Clonando o Repositório
+- Clone este repositorio para sua máquina local usando:
+```
+git clone 'Link_do_repositório'
 
-Entendendo métricas
+```
+## Instalando Depedências
+- Após a devida configuração em sua máquina, acesse o diretório do projeto pelo **cmder** ou **powershell** e digite o comando abaixo:
+```
+- npm install.
 
-1. Contadores
-2. Medidores
-3. Taxas
-4. Tendência
+```
+- Após esse comando ser executado será instalado todas as dependências necessárias para a execução do projeto.
 
-Mão na massa: (aula 8)
-    Realizar o registro de um novo usuário
-Critérios:
-    Performance Test
-    - Carga 10 VU por 10s
-Limites:
-    - Requisição com falha inferior a 1%
-    - Duração da requisição p(95) < 500
-    - Requisição com sucesso superior a 95%
+## Executando os testes
+- Para a execução utilize o comando abaixo:
+```
+ - k6 run <file_name_here.js>
+
+```
+## Visualizar o relatório
+ - No diretório do projeto acesse a pasta **“.\reports”** e abra o arquivo **.html** para visualizar o relatório da execução dos testes após a execução.
+
+
+# 📌 Autor/Contato
+
+| [<img src="https://avatars1.githubusercontent.com/u/62215470?s=460&u=c6dc439e77463ced6dd781733712708b5fbdde65&v=4" width=115><br><sub>@Guilhermemarinh</sub>](https://github.com/Guilhermemarinh) |
+| :---: |
+
+
+- Linkedin  [Guilherme Marinho](https://www.linkedin.com/in/guilherme-lima-marinho-242635196)
+- E-mail [Email](guilhermemarinho.qa@hotmail.com)
+---
