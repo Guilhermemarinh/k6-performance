@@ -1,9 +1,9 @@
 # ⚒ Projeto Performance - K6
-Projeto para automatização de testes no site FreeHelper
+Projeto de estudos com a ferramente K6
 
 # 📋 Descrição
 
-- Para automação dos testes de performance foi utilizada a linguagem de programação [JS](https://www.ruby-lang.org/pt/), juntamente com o Framework [K6](https://rubygems.org/gems/capybara).
+- Para automação dos testes de performance foi utilizado o Framework [K6](https://k6.io/).
 
 
 ## Clonando o Repositório
@@ -37,5 +37,5 @@ git clone 'Link_do_repositório'
 
 
 - Linkedin  [Guilherme Marinho](https://www.linkedin.com/in/guilherme-lima-marinho-242635196)
-- E-mail [Email](guilhermemarinho.qa@hotmail.com)
+- [E-mail](guilhermemarinho.qa@hotmail.com)
 ---
